@@ -118,12 +118,14 @@ export default function App() {
               variant="outlined"
             />
             <br />
-            <div>
-              <Button
-                variant="contained"
-                color="primary"
-                style={{ display: "flex", justifyContent: "right" }}
-              >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "right",
+                marginTop: "16px",
+              }}
+            >
+              <Button variant="contained" color="primary">
                 Submit
               </Button>
             </div>
